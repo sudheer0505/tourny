@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fire Tournament</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>🔥AVG Free Fire Tournament</h1>
+        <p>Register your squad and compete for glory!</p>
+    </header>
+
+    <!-- Tournament Info -->
+    <section class="tournament-info">
+        <h2>🏆 Tournament Information</h2>
+        <ul>
+            <li><strong>Match Type:</strong> Squad</li>
+            <li><strong>Entry Fee:</strong> Free</li>
+            <li><strong>Prize Pool:</strong> ₹2000</li>
+            <li><strong>Date:</strong> 14 December 2025</li>
+            <li><strong>Map Rotation:</strong> Bermuda, Kalahari, Purgatory</li>
+        </ul>
+    </section>
+
+    <!-- Rules Section -->
+    <section class="rules">
+        <h2>📜 Tournament Rules</h2>
+        <ul>
+            <li>No hacking, scripting or mod use allowed.</li>
+            <li>Emulators are not allowed (only mobile players permitted).</li>
+            <li>If a player disconnects, the match will not be restarted.</li>
+            <li>Team leaders must be online 10 minutes before match start.</li>
+            <li>Use of abusive language will result in immediate disqualification.</li>
+            <li>Only registered players can participate in the match.</li>
+            <li>Organizers’ decision will be final.</li>
+        </ul>
+    </section>
+
+    <!-- Registration Form -->
+    <section class="register">
+        <h2>📝 Register Your Team</h2>
+
+        <form id="registerForm">
+            <label>Team Name</label>
+            <input type="text" id="teamName" required>
+
+            <label>Leader Name</label>
+            <input type="text" id="leaderName" required>
+
+            <label>Leader Free Fire UID</label>
+            <input type="number" id="leaderUid" required>
+
+            <label>Phone Number</label>
+            <input type="number" id="phone" required>
+
+            <h3>Team Members (Optional)</h3>
+
+            <label>Player 2 UID</label>
+            <input type="number" id="p2">
+
+            <label>Player 3 UID</label>
+            <input type="number" id="p3">
+
+            <label>Player 4 UID</label>
+            <input type="number" id="p4">
+
+            <button type="submit">Register Team</button>
+        </form>
+
+        <p id="msg"></p>
+    </section>
+
+    <!-- Contact Details -->
+    <section class="contact">
+        <h2>📞 Contact Details</h2>
+        <p><strong>Organizer Name:</strong> Rohit Sharma</p>
+        <p><strong>WhatsApp:</strong> 9876543210</p>
+        <p><strong>Email:</strong> ff.tournament@gmail.com</p>
+        <p><strong>Instagram:</strong> @ff_tournaments_india</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Free Fire Tournament — All Rights Reserved</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
